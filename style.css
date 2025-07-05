@@ -22,6 +22,7 @@ body{
     width:75vw;
     margin:16px 0px;
     position: relative;
+    
  
 }
 .home ul li{
@@ -165,11 +166,11 @@ font-size: 16px;
 .card-container{
 
      display: grid;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin: 30px;
   gap: 20px;
   max-height: 60vw;
-  overflow-y: auto;
+  overflow-y:auto;
   /* padding-bottom: 100px; */
 
 
